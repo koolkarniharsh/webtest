@@ -3,14 +3,14 @@ body {
 }
 
 /* Navigation Bar */
-
 .navbar {
   padding: 0;
   margin:0;
   background:#542410;
   z-index: 999999;
   /*background-color:saddlebrown;*/
-
+  min-height: 10%;
+  height: 10%;
 }
 
 #navbarTogglerDemo02{
