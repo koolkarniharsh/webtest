@@ -1,0 +1,174 @@
+body {
+  /* background-color: #87431d;/*f0a500*/
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+#header a{
+  font-size: 1.5rem;
+  margin: 2%;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* Banner Carousel */
+.bannerSection {
+  margin: 1%;
+}
+
+.bannerItem {
+  height: 50%;
+  width: 100%;
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.container {
+  /*image-orientation: inherit;*/
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  padding: 0;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+/* Products */
+.protypes{
+  background-color: #c87941;
+  padding-bottom: 2%;
+  margin: 1%;
+  text-align: center;
+}
+
+.products {
+  width: 80%;
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 5% 0 2% 7%;
+}
+
+.products div {
+  margin-right: 2%;
+}
+
+.products h2 {
+  margin-top: 10%;
+  padding-top: 10%;
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* recommendedProducts */
+
+.recommendedProducts {
+  margin: 1%;
+  background-color: #c87941;
+}
+
+.recommendedProductsRow {
+  /* background-color: #f0a500; */
+  padding: 1%;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Testimonial Styles */
+
+.testimonial {
+  padding: 10% 0 !important;
+}
+
+.testimonial p {
+    color: black;
+    line-height: 19px;
+    font-size: 13px;
+    margin-top: 16px
+}
+
+.testimonial h5 {
+  padding-top: 10px;
+    color: #9c27b0;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 2%;
+}
+
+.testimonial p {
+    color: black;
+    line-height: 19px;
+    font-size: 13px;
+    margin: 5% 25%;
+}
+
+.testimonial img {
+    margin: 2% auto;
+}
+
+.testo{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.testimonialSection {
+  margin: 1%;
+}
+
+.testimonialSection h3 {
+  border-radius: 5px 5px 0 0;
+}
+
+.carousel-control{
+  border-radius: 0 0 5px 5px;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+h3 {
+  margin-top: 0;
+  background-color: #290001;/*87431d*/
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-align: center;
+  color: white;
+  margin-bottom: 0;
+  border-radius: 5px 5px 0 0;
+}
+
+footer {
+     background-color: #290001;
+     padding: 50px;
+     text-align: center;
+     color: white;
+}
+.card {
+  border-radius: 5px;
+}
