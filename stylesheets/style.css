@@ -3,14 +3,14 @@ body {
 }
 
 /* Navigation Bar */
+
 .navbar {
   padding: 0;
   margin:0;
   background:#542410;
   z-index: 999999;
   /*background-color:saddlebrown;*/
-  min-height: 10%;
-  height: 10%;
+
 }
 
 #navbarTogglerDemo02{
@@ -27,7 +27,7 @@ padding-right:15%;
 }
 
 .navbar-brand img{
-width:30%;
+max-width:130px;
 }
 
 .nav-item {
@@ -92,8 +92,18 @@ width:30%;
 }
 
 .products h2 {
+  font-weight: bold;
+  color: #542410;
   margin-top: 10%;
   padding-top: 10%;
+}
+
+.products a{
+  text-decoration: none;
+}
+
+.products a: hover{
+  text-decoration: none;
 }
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
@@ -169,6 +179,79 @@ width:30%;
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* dryFruits */
+
+.p1 {
+  margin-top: 0;
+  background-color: #ffc93c;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 0;
+  border-radius: 5px 5px 0 0;
+}
+.p2{
+  padding-top: 10px;
+  padding-bottom: 5px;
+  text-align: center;
+  font-size: 20px;
+  font-style: bold;
+
+}
+/* /////////////////////////////// */
+
+/* contact  */
+
+.cont-details{
+/* background-color: #c87941; */
+text-align: left;
+font-size: 15px;
+
+}
+
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  /* top: 0; */
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: #c87941;
+  padding: 8% 5% 5% 10%;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: #c87941;
+    padding: 8% 5% 5% 5%;
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* dryFruits image hover */
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+/*dryFruits Page*/
+
+.dryfruits h2{
+  font-size: 1.5rem;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
 h3 {
   margin-top: 0;
   background-color: #87431d;
@@ -186,9 +269,14 @@ footer {
      text-align: center;
      color: white;
 }
-#icons{
-z-index:2.5;
+.handles{
+margin-top: 3rem !important;
 font-size:2.5em;
+}
+
+.handles a {
+    margin:10px;
+    color:#ffc93c;
 }
 
 .card {
