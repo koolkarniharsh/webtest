@@ -1,7 +1,3 @@
-body {
-  /* background-color: #87431d;/*f0a500*/
-}
-
 /* Navigation Bar */
 
 .navbar {
@@ -9,8 +5,6 @@ body {
   margin:0;
   background:#542410;
   z-index: 999999;
-  /*background-color:saddlebrown;*/
-
 }
 
 #navbarTogglerDemo02{
@@ -42,7 +36,6 @@ max-width:130px;
 
 #header a{
   font-size: 1.5rem;
- /* margin: 2%;*/
 }
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
@@ -59,7 +52,6 @@ max-width:130px;
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 .container {
-  /*image-orientation: inherit;*/
   width: 100%;
   max-width: 100%;
   text-align: center;
@@ -115,7 +107,6 @@ max-width:130px;
 }
 
 .recommendedProductsRow {
-  /* background-color: #f0a500; */
   padding: 1%;
 }
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
@@ -165,7 +156,7 @@ max-width:130px;
 }
 
 .testimonialSection {
-  background-color: #290001;/*87431d*/
+  background-color: #290001;
   margin: 1%;
 }
 
@@ -207,35 +198,67 @@ max-width:130px;
 /* contact  */
 
 .cont-details{
-/* background-color: #c87941; */
 text-align: left;
 font-size: 15px;
 
 }
 
-/* Split the screen in half */
-.split {
-  height: 100%;
-  width: 50%;
-  position: fixed;
-  z-index: 1;
-  /* top: 0; */
-  overflow-x: hidden;
-  padding-top: 20px;
+.cont-details h3{
+  border-radius: 5px;
 }
-
 /* Control the left side */
-.left {
+.contact-left {
   left: 0;
   background-color: #c87941;
   padding: 8% 5% 5% 10%;
 }
 
 /* Control the right side */
-.right {
+.contact-right {
   right: 0;
   background-color: #c87941;
     padding: 8% 5% 5% 5%;
+}
+
+.contact-block {
+  margin: 2% auto;
+}
+
+.contact-card {
+  padding: 0;
+}
+
+.contact-card-header {
+  font-weight: bold;
+}
+
+.contact-card-body {
+  padding: 0;
+}
+
+.contact-card-text {
+  padding: 5%;
+}
+
+.contact-card-title {
+  padding: 5%;
+}
+
+.contact-text {
+  margin:2%;
+  color:white;
+  font-weight: bold;
+  align-self: center;
+}
+
+.contact-map{
+  margin:5%;
+  text-align:center;
+}
+
+.contact-map h3{
+  border-radius: 5px;
+  margin-bottom: 2%;
 }
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
@@ -270,8 +293,8 @@ footer {
      color: white;
 }
 .handles{
-margin-top: 3rem !important;
-font-size:2.5em;
+  margin-top: 3rem !important;
+  font-size:2.5em;
 }
 
 .handles a {
@@ -281,7 +304,9 @@ font-size:2.5em;
 
 .card {
   border-radius: 5px;
+  box-shadow: 2px 2px grey;
 }
+
 #dryFruitsHeader{
 background-color:light-cyan;
 }
