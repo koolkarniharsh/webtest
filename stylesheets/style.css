@@ -197,6 +197,7 @@ max-width:130px;
 
 /* contact  */
 .cont-details h3{
+  margin:2%;
   border-radius: 5px;
 }
 /* Control the left side */
