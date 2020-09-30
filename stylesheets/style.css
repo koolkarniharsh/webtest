@@ -203,7 +203,6 @@ max-width:130px;
 .contact-left {
   left: 0;
   background-color: #c87941;
-  padding: 5%;
   /* padding: 8% 5% 5% 10%; */
 }
 
@@ -211,11 +210,12 @@ max-width:130px;
 .contact-right {
   right: 0;
   background-color: #c87941;
-  padding: 5%;
     /* padding: 8% 5% 5% 5%; */
 }
 
 .contact-block {
+  padding-left: 5%;
+  padding-right: 5%;
   margin: 2% auto;
 }
 
