@@ -67,27 +67,31 @@ max-width:130px;
 /* Products */
 .protypes{
   background-color: #c87941;
-  padding-bottom: 2%;
   margin: 1%;
   text-align: center;
 }
 
 .products {
-  width: 80%;
-  max-width: 80%;
+  width: 90%;
+  max-width: 90%;
   margin: 0 auto;
-  padding: 5% 0 2% 7%;
+  padding: 2% 0 0 3%;
 }
 
-.products div {
-  margin-right: 2%;
+.products-five{
+padding: 2% 0 0 10%;
+}
+
+.products-three{
+max-width: 70%
 }
 
 .products h2 {
+  font-size:1.75rem;
   font-weight: bold;
   color: #542410;
   margin-top: 10%;
-  padding-top: 10%;
+  padding: 5% 0;
 }
 
 .products a{
@@ -96,6 +100,10 @@ max-width:130px;
 
 .products a: hover{
   text-decoration: none;
+}
+
+.information{
+padding-bottom:2%;
 }
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
@@ -262,7 +270,7 @@ max-width:130px;
 }
 
 .contact-map{
-  margin:5%;
+  margin:2%;
   text-align:center;
 }
 
@@ -331,4 +339,7 @@ footer {
 
 #dryFruitsHeader{
 background-color:light-cyan;
+}
+
+.card-body{
 }
