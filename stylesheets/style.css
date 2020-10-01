@@ -196,6 +196,14 @@ max-width:130px;
 /* /////////////////////////////// */
 
 /* contact  */
+
+.contact-page-main {
+  text-align: center;
+  align-content: center;
+  height: 100vh;
+  background-color: #c87941;
+}
+
 .cont-details h3{
   margin:2%;
   border-radius: 5px;
@@ -203,15 +211,11 @@ max-width:130px;
 /* Control the left side */
 .contact-left {
   left: 0;
-  background-color: #c87941;
-  /* padding: 8% 5% 5% 10%; */
 }
 
 /* Control the right side */
 .contact-right {
   right: 0;
-  background-color: #c87941;
-    /* padding: 8% 5% 5% 5%; */
 }
 
 .contact-block {
