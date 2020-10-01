@@ -200,8 +200,14 @@ max-width:130px;
 .contact-page-main {
   text-align: center;
   align-content: center;
-  height: 80vh;
   background-color: #c87941;
+  margin: 0;
+}
+
+@media only screen and (max-width: 375px) {
+  .contact-page-main{
+    height: 75vh;
+  }
 }
 
 .cont-details h3{
