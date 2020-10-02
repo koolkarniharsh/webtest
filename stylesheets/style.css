@@ -3,6 +3,10 @@
   from {opacity:0}
   to {opacity:1}
 }
+
+@keyframes rotate-component {
+  from {transform: rotateY(180deg);}
+}
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 /* Navigation Bar */
@@ -109,7 +113,7 @@ max-width: 70%
   text-decoration: none;
 }
 
-.products a: hover{
+.products a:hover{
   text-decoration: none;
 }
 
@@ -127,6 +131,10 @@ padding-bottom:2%;
 
 .recommendedProductsRow {
   padding: 1%;
+}
+
+.img-thumbnail:hover {
+  animation: rotate-component 1s;
 }
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
