@@ -178,6 +178,43 @@ padding-bottom:2%;
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
+
+/* About */
+.Aboutexp {
+  text-align: center;
+}
+.Aboutexp img{
+  max-width: 60%;
+}
+
+.about-section {
+  padding: 5%;
+}
+
+.about-card {
+  margin:1%;
+  max-width: 30%;
+  padding: 0;
+}
+
+.about-card p {
+  padding: 2%;
+}
+
+.about-card-header i {
+  color: #c87941;
+  padding: 5%;
+  font-size: 2.5rem;
+}
+
+.about-card-header {
+  padding: 0;
+}
+
+.about-row {
+  margin: 1%;
+  padding-left: 7% !important;
+}
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 /* dryFruits */
