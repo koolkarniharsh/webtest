@@ -34,8 +34,6 @@ padding-right:15%;
 .navbar-toggler {
   margin-right: 5%;
   color: white;
-  border: solid 1px white;
-  border-radius: 0.25rem;
 }
 
 .navbar-toggler-icon {
