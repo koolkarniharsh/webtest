@@ -32,11 +32,12 @@ padding-right:15%;
 }
 
 .navbar-toggler {
-  padding-right: 25%;
+  padding-right: 5%;
+  color: white;
 }
 
 .navbar-toggler-icon {
-  color: saddlebrown;
+  color: white;
 }
 
 .navbar-brand {
