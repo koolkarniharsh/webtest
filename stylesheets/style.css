@@ -118,6 +118,12 @@ max-width:130px;
 padding: 2% 0 0 10%;
 }
 
+@media only screen and (max-device-width: 700px) {
+  .products-five{
+    padding: 2% 0 0 0;
+  }
+}
+
 .products-three{
 max-width: 70%
 }
