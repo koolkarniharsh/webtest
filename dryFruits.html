@@ -2,6 +2,7 @@
 <html>
 
 <head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link href="stylesheets/style.css" rel="stylesheet" type="text/css">
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -13,16 +14,18 @@
 
 </head>
 
-<body>
+<body class="dryfruit-main">
 
 
   <div id="header">
   </div>
 
   <div class="dryfruits">
-    <div class="card protypes">
-      <h3>Dry Fruit 1</h3>
-      <div id="dryFruit1" class="container">
+    <div class="card protypes" id="sectionName1">
+      <div data-toggle="collapse" data-target="#dryFruit1" data-parent="#sectionName1">
+        <h3>Dry Fruit 1</h3>
+      </div>
+      <div id="dryFruit1" class="collapse multi-collapse container" data-parent="#sectionName1">
         <div class="products products-five row">
           <div class="col-lg-2 col-md-4 col-sm-4">
             <div data-toggle="collapse" data-target="#dryFruit1Content1" data-parent="#dryFruit1">
@@ -55,6 +58,9 @@
             </div>
           </div>
         </div>
+        <div class="cards">
+          <span> QWERTY </span>
+        </div>
         <div class="products information row">
           <div class="collapse multi-collapse" id="dryFruit1Content1" data-parent="#dryFruit1">
             <div class="card card-body">
@@ -85,9 +91,11 @@
       </div>
     </div>
 
-    <div class="card protypes">
-      <h3>Walnuts</h3>
-      <div id="dryFruit2" class="container">
+    <div class="card protypes" id="sectionName2">
+      <div data-toggle="collapse" data-target="#dryFruit2" data-parent="#sectionName2">
+        <h3>Walnuts</h3>
+      </div>
+      <div id="dryFruit2" class="collapse multi-collapse container" data-parent="#sectionName2">
         <div class="products products-three row">
           <div class="col-lg-4 col-md-4 col-sm-4">
             <div data-toggle="collapse" data-target="#dryFruit2Content1" data-parent="#dryFruit2">
@@ -107,6 +115,9 @@
               <h2>Walnuts Three</h2>
             </div>
           </div>
+        </div>
+        <div class="cards">
+          <span> QWERTY </span>
         </div>
         <div class="products information row">
           <div class="collapse multi-collapse" id="dryFruit2Content1" data-parent="#dryFruit2">
@@ -128,9 +139,11 @@
       </div>
     </div>
 
-    <div class="card protypes">
-      <h3>Almonds</h3>
-      <div id="dryFruit3" class="container">
+    <div class="card protypes" id="sectionName3">
+      <div data-toggle="collapse" data-target="#dryFruit3" data-parent="#sectionName3">
+        <h3>Almonds</h3>
+      </div>
+      <div id="dryFruit3" class="collapse multi-collapse container" data-parent="#sectionName3">
         <div class="products products-five row">
           <div class="col-lg-2 col-md-4 col-sm-4">
             <div data-toggle="collapse" data-target="#dryFruit3Content1" data-parent="#dryFruit3">
@@ -163,6 +176,9 @@
             </div>
           </div>
         </div>
+        <div class="cards">
+          <span> QWERTY </span>
+        </div>
         <div class="products information row">
           <div class="collapse multi-collapse" id="dryFruit3Content1" data-parent="#dryFruit3">
             <div class="card card-body">
@@ -193,10 +209,11 @@
       </div>
     </div>
 
-    <div class="card protypes">
-      <h3>Cashew</h3>
-
-      <div id="dryFruit4" class="container">
+    <div class="card protypes" id="sectionName4">
+      <div data-toggle="collapse" data-target="#dryFruit4" data-parent="#sectionName4">
+        <h3>Cashew</h3>
+      </div>
+      <div id="dryFruit4" class="collapse multi-collapse container" data-parent="#sectionName4">
         <div class="products products-three row">
           <div class="col-lg-4 col-md-4 col-sm-4">
             <div data-toggle="collapse" data-target="#dryFruit4Content1" data-parent="#dryFruit4">
@@ -216,6 +233,9 @@
               <h2>Cashew Three</h2>
             </div>
           </div>
+        </div>
+        <div class="cards">
+          <span> QWERTY </span>
         </div>
         <div class="products information row">
           <div class="collapse multi-collapse" id="dryFruit4Content1" data-parent="#dryFruit4">
@@ -241,7 +261,6 @@
 
   <div id="footer">
   </div>
-
   <script src="js/headerFooter.js"></script>
 
 </body>

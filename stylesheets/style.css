@@ -20,10 +20,15 @@
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 /* Navigation Bar */
+#header {
+  position: absolute;
+  top: 0;
+}
 
 .navbar {
   padding: 0;
   margin:0;
+ /* background-image: linear-gradient(180deg, #542410, #784f28);*/
   background:#542410;
   z-index: 999999;
 }
@@ -65,14 +70,14 @@ max-width:130px;
 }
 
 #header a{
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 /* Banner Carousel */
 .bannerSection {
-  margin: 1%;
+  /* margin: 1%; */
 }
 
 .bannerItem {
@@ -95,9 +100,13 @@ max-width:130px;
 }
 
 /* Products */
+.protypes h3{
+font-size:1.3rem;
+}
+
 .protypes{
   background-color: #c87941;
-  margin: 1%;
+  /* margin: 1%; */
   text-align: center;
 }
 
@@ -135,7 +144,7 @@ max-width: 70%
 }
 
 .products h2 {
-  font-size:1.75rem;
+  font-size:1.3rem;
   font-weight: bold;
   color: white;
   margin-top: 10%;
@@ -158,8 +167,11 @@ padding-bottom:2%;
 /* recommendedProducts */
 
 .recommendedProducts {
-  margin: 1%;
+  /* margin: 1%; */
   background-color: #c87941;
+}
+.recommendedProducts h3{
+font-size:1.3rem;
 }
 
 .recommendedProductsRow {
@@ -217,7 +229,7 @@ padding-bottom:2%;
 
 .testimonialSection {
   background-color: #290001;
-  margin: 1%;
+  /* margin: 1%; */
 }
 
 .testimonialSection h3 {
@@ -283,6 +295,9 @@ padding-bottom:2%;
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 /* dryFruits */
+.dryfruit-main {
+  background-color: #FFD57E;
+}
 
 .p1 {
   margin-top: 0;
@@ -295,13 +310,19 @@ padding-bottom:2%;
   margin-bottom: 0;
   border-radius: 5px 5px 0 0;
 }
+
 .p2{
   padding-top: 10px;
   padding-bottom: 5px;
   text-align: center;
   font-size: 20px;
   font-style: bold;
+}
 
+@media only screen and (max-device-width: 760px) {
+  .dryfruit-main{
+    height: 75vh;
+  }
 }
 /* /////////////////////////////// */
 
@@ -400,6 +421,14 @@ padding-bottom:2%;
 
 /*dryFruits Page*/
 
+#sectionName1{
+background-image: linear-gradient(180deg, #FFD57E, #AC4B1C);
+}
+
+#sectionName3{
+background-image: linear-gradient(180deg, #FFD57E, #AC4B1C);
+}
+
 .dryfruits h2{
   font-size: 1rem;
 }
@@ -423,6 +452,8 @@ footer {
      padding: 50px;
      text-align: center;
      color: white;
+     position: absolute;
+     bottom: 0;
 }
 .handles{
   margin-top: 3rem !important;
@@ -439,9 +470,12 @@ footer {
   box-shadow: 2px 2px grey;
 }
 
-#dryFruitsHeader{
-background-color:light-cyan;
+.cards{
+margin:auto;
+width:50%;
+background:khaki;
 }
 
-.card-body{
+.testimonialSection h3{
+font-size:1.3rem;
 }
