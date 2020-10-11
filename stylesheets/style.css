@@ -456,6 +456,7 @@ h3 {
   font-size: 1.0rem;
 }
 
+/* Footer */
 footer {
      background-color: #290001;
      padding: 50px;
@@ -463,6 +464,7 @@ footer {
      color: white;
      bottom: 0;
 }
+
 .handles{
   margin-top: 3rem !important;
   font-size:2.5em;
@@ -471,7 +473,10 @@ footer {
 .handles a {
     margin:10px;
     color:#ffc93c;
+    text-decoration: none;
 }
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 .card {
   border-radius: 5px;
