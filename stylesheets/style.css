@@ -80,13 +80,21 @@ max-width:80px;
 }
 
 .bannerItem {
-  height: 50%;
+  height: inherit;
   width: 100%;
 }
 
 .carousel-inner {
-  height: 60%;
+  height: inherit;
   max-height: 60%;
+}
+
+#bannerCarousel {
+  background-color: #c87941;
+}
+
+.banner-image {
+  width: 60%;
 }
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
@@ -200,13 +208,6 @@ font-size:1.3rem;
   padding: 5% 0 !important;
 }
 
-.testimonial p {
-    color: black;
-    line-height: 19px;
-    font-size: 13px;
-    margin-top: 16px;
-}
-
 .testimonial h5 {
     padding-top: 10px;
     color: #9c27b0;
@@ -217,9 +218,13 @@ font-size:1.3rem;
 
 .testimonial p {
     color: black;
-    line-height: 19px;
-    font-size: 13px;
+    line-height: 1.4;
+    font-size: 1rem;
     margin: 5% 25%;
+    word-wrap: break-word;
+    min-height: 150px;
+    text-align: center;
+    display: inline-block;
 }
 
 .testimonial img {
