@@ -369,8 +369,9 @@ padding: 1%;
 .contact-page-main {
   text-align: center;
   align-content: center;
-  background-color: #c87941;
+  /* background-color: #c87941; */
   margin: 0;
+  color: #AC4B1C;
 }
 
 @media only screen and (max-device-width: 760px) {
@@ -382,6 +383,7 @@ padding: 1%;
 .cont-details h3{
   margin:2%;
   border-radius: 5px;
+  color: #AC4B1C;
 }
 /* Control the left side */
 .contact-left {
@@ -417,6 +419,7 @@ padding: 1%;
 
 .contact-card-text {
   padding: 5%;
+  color: #290001;
 }
 
 .contact-card-title {
@@ -425,7 +428,6 @@ padding: 1%;
 
 .contact-text {
   margin:2%;
-  color:white;
   font-weight: bold;
   align-self: center;
 }
@@ -438,12 +440,14 @@ padding: 1%;
 .contact-map h3{
   border-radius: 5px;
   margin-bottom: 2%;
+  color: #AC4B1C;
 }
 
 .mapouter {
   position: relative;
   text-align: center;
   max-width: 100%;
+  margin: 5% auto;
 }
 .gmap_canvas {
   overflow: hidden;
