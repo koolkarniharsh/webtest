@@ -384,6 +384,7 @@ padding: 1%;
   margin:2%;
   border-radius: 5px;
   color: #AC4B1C;
+  font-size: 1.5rem;
 }
 /* Control the left side */
 .contact-left {
@@ -441,6 +442,7 @@ padding: 1%;
   border-radius: 5px;
   margin-bottom: 2%;
   color: #AC4B1C;
+  font-size: 1.5rem;
 }
 
 .mapouter {
