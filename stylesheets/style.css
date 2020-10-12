@@ -76,7 +76,7 @@ max-width:80px;
 
 /* Banner Carousel */
 .bannerSection {
-  /* margin: 1%; */
+  margin: 4% auto;
 }
 
 .bannerItem {
@@ -309,7 +309,11 @@ font-size:1.3rem;
 
 /* dryFruits */
 .dryfruit-main {
-  background-color: #FFD57E;
+  /* background-color: #FFD57E; */
+}
+
+.protypes i {
+  padding-left: 2%;
 }
 
 .p1 {
@@ -330,6 +334,27 @@ font-size:1.3rem;
   text-align: center;
   font-size: 20px;
   font-style: bold;
+}
+
+.dryfruits h2{
+  font-size: 1rem;
+  color: #AC4B1C;
+}
+
+.dry-fruit-cards{
+  display: block;
+  margin: 2% auto;
+  width:50%;
+  background:khaki;
+  border-radius: 5px;
+}
+
+.dry-fruit-content{
+/* background-image: linear-gradient(180deg, #FFD57E, #AC4B1C); */
+background-color: #290001;
+width: 96%;
+margin:2% 2%;
+padding: 1%;
 }
 
 @media only screen and (max-device-width: 760px) {
@@ -434,16 +459,8 @@ font-size:1.3rem;
 
 /*dryFruits Page*/
 
-#sectionName1{
-background-image: linear-gradient(180deg, #FFD57E, #AC4B1C);
-}
-
 #sectionName3{
-background-image: linear-gradient(180deg, #FFD57E, #AC4B1C);
-}
-
-.dryfruits h2{
-  font-size: 1rem;
+/* background-image: linear-gradient(180deg, #FFD57E, #AC4B1C); */
 }
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
@@ -510,12 +527,6 @@ footer {
 .card {
   border-radius: 5px;
   box-shadow: 2px 2px grey;
-}
-
-.cards{
-margin:auto;
-width:50%;
-background:khaki;
 }
 
 .testimonialSection h3{
