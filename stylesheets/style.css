@@ -304,6 +304,12 @@
     margin: 1%;
     padding-left: 7% !important;
   }
+
+  @media only screen and (max-device-width: 760px) {
+    .about-body{
+      flex: 1;
+    }
+  }
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 /* dryFruits */
@@ -374,7 +380,7 @@
 
   @media only screen and (max-device-width: 760px) {
     .contact-page-main{
-      height: 75vh;
+      flex: 1;
     }
   }
 
@@ -526,6 +532,7 @@
        text-align: center;
        color: white;
        bottom: 0;
+       flex-shrink: 0;
   }
 
   .handles{
