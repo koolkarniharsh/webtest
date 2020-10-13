@@ -305,6 +305,10 @@
     padding-left: 7% !important;
   }
 
+  .about-body {
+    text-align: center;
+  }
+
   @media only screen and (max-device-width: 760px) {
     .about-body{
       flex: 1;
