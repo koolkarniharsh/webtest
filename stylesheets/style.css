@@ -178,11 +178,8 @@
 
 /* recommendedProducts */
   .recommendedProducts {
-    /* margin: 1%; */
+    margin: 2% auto;
     /* background-color: #c87941; */
-  }
-  .recommendedProducts h3{
-    font-size:1.3rem;
   }
 
   .recommendedProductsRow {
@@ -204,6 +201,7 @@
 /* Testimonial Styles */
   .testimonial {
     padding: 5% 0 !important;
+    margin: 2% auto;
   }
 
   .testimonial h5 {
@@ -245,7 +243,6 @@
 
   .testimonialSection h3 {
     border-radius: 5px 5px 0 0;
-    font-size:1.3rem;
   }
 
   .carousel-control{
@@ -254,6 +251,12 @@
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
+/* Founders */
+.foundersSection {
+  margin: 3% 2%;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 /* About */
   .Aboutexp {
@@ -448,7 +451,7 @@
 
   .contact-map h3{
     border-radius: 5px;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
     color: #AC4B1C;
     font-size: 1.5rem;
   }
@@ -489,7 +492,7 @@
     color: #290001;
     margin-bottom: 0;
     border-radius: 5px 5px 0 0;
-    font-size: 1.0rem;
+    font-size:1.3rem;
   }
 
   @media only screen and (max-device-width: 760px) {
