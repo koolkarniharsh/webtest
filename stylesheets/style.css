@@ -178,12 +178,13 @@
 
 /* recommendedProducts */
   .recommendedProducts {
-    margin: 2% auto;
+    margin: 5% 1%;
     /* background-color: #c87941; */
   }
 
   .recommendedProductsRow {
     padding: 1%;
+    margin: auto 0;
   }
 
   .img-thumbnail:hover {
@@ -201,7 +202,7 @@
 /* Testimonial Styles */
   .testimonial {
     padding: 5% 0 !important;
-    margin: 2% auto;
+    margin: 3% auto;
   }
 
   .testimonial h5 {
@@ -253,7 +254,7 @@
 
 /* Founders */
 .foundersSection {
-  margin: 3% 2%;
+  margin: 2% 2%;
 }
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
