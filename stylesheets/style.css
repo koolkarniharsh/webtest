@@ -377,6 +377,35 @@
   }
 /* /////////////////////////////// */
 
+/* nutrition */
+
+.nutrition {
+  margin:1%;
+}
+
+.nutrition-row {
+  /* margin: 1%; */
+  margin: 0 0 1%;
+  align-items: center;
+  background-color: saddlebrown;
+  min-height: 15vh;
+}
+
+.nutrition-row h3 {
+  color: white;
+}
+
+.nutrition img {
+  height: 250px;
+  width: 250px;
+}
+
+.nutrition-details-section {
+  align-items: center;
+}
+
+/* /////////////////////////////// */
+
 /* contact  */
   .contact-page-main {
     text-align: center;
