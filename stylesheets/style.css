@@ -541,11 +541,11 @@
     background-image: linear-gradient(to right, #AC4B1C, #290001, #AC4B1C);
   }
   hr::after {
-    content: "KB";
+    content: url('../images/LOGO.png');
     display: inline-block;
     position: absolute;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) scale(0.1, 0.1);
     transform-origin: 50% 50%;
     padding: 1rem;
     background-color: white;
