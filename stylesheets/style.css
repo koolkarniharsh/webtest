@@ -152,7 +152,7 @@
   }
 
   .products-three{
-    max-width: 70%
+    /* max-width: 70% */
   }
 
   .products-three div {
@@ -177,6 +177,7 @@
   }
 
   .information{
+    display: none;
     padding-bottom:2%;
   }
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
