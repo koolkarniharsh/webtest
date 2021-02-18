@@ -160,6 +160,12 @@
     padding-bottom: 2%;
   }
 
+  .product-border {
+    border: 1px solid #290001;
+    border-radius: 1%;
+    box-shadow: 2px 2px;
+  }
+
   .products h2 {
     font-size:1.3rem;
     font-weight: bold;
@@ -179,6 +185,12 @@
   .information{
     display: none;
     padding-bottom:2%;
+  }
+
+  .price-table{
+    background-color: #290001;
+    color: #FFD57E;
+    border-radius: 1%;
   }
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
