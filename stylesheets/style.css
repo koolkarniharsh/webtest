@@ -191,6 +191,10 @@
     color: #FFD57E;
     border-radius: 1%;
   }
+
+  .price-table th {
+    color: white;
+  }
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 /* recommendedProducts */
