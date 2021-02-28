@@ -72,11 +72,11 @@
     font-size: 1.3rem;
   }
 
-  .dropdown-menu {
-    background-color: "#542410";
-    color: "#F09D61";
-    position: "absolute";
-    width: "100vw";
+  .header-dropdown-menu {
+    background-color: "#542410" !important;
+    color: "#F09D61" !important;
+    position: "absolute" !important;
+    width: "100vw" !important;
   }
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
