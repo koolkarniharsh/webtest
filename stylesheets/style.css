@@ -72,6 +72,13 @@
     font-size: 1.3rem;
   }
 
+  .dropdown-menu {
+    background-color: "#542410";
+    color: "#F09D61";
+    position: "absolute";
+    width: "100vw";
+  }
+
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 /* Banner Carousel */
@@ -371,7 +378,7 @@
   }
 
   .dryfruits h2{
-    font-size: 1rem;
+    /* font-size: 1rem; */
     color: #AC4B1C;
   }
 
@@ -538,6 +545,10 @@
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 /* Generic components */
+  h1 {
+    /* font-family: "Montserrat"; */
+  }
+
   h3 {
     margin-top: 0;
     /* background-color: #87431d; */
