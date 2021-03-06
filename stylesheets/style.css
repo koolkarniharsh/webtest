@@ -79,6 +79,10 @@
     width: 100vw !important;
   }
 
+  .header-dropdown-menu .dropdown-item {
+    color: #F09D61 !important;
+  }
+
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 /* Banner Carousel */
