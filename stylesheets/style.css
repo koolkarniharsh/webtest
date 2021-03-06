@@ -407,6 +407,25 @@
       height: 75vh;
     }
   }
+
+  .price-div {
+    margin-bottom: 5%;
+  }
+
+  .price {
+    background-color:#290001;
+    color:#FFD57E;
+  }
+
+  .products .btn {
+    background-color:#290001;
+    color:#FFD57E;
+  }
+
+  .products .btn:hover{
+    background-color:#290001;
+    color:white;
+  }
 /* /////////////////////////////// */
 
 /* nutrition */
