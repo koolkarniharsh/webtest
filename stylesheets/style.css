@@ -73,19 +73,15 @@
   }
 
   @media only screen and (min-device-width: 760px) {
-    .header-dropdown-menu{
-      position: absolute !important;
+    .header-dropdown-menu {
+      background-color: #542410 !important;
+      color: #F09D61 !important;
+      width: 100vw !important;
     }
-  }
 
-  .header-dropdown-menu {
-    background-color: #542410 !important;
-    color: #F09D61 !important;
-    width: 100vw !important;
-  }
-
-  .header-dropdown-menu .dropdown-item {
-    color: #F09D61 !important;
+    .header-dropdown-menu .dropdown-item {
+      color: #F09D61 !important;
+    }
   }
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
